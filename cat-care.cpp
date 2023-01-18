@@ -51,7 +51,7 @@ main()
    for(a=1;a<=jml_data;a++)
    {
     cout<<"Hewan ke-"<<a<<endl;
-      cout<<"Kode Jenis Hewan [K/H/B] :";cin>>cntr[a].kode_hewan;
+      cout<<"Kode Jenis Hewan [K/H] :";cin>>cntr[a].kode_hewan;
       cout<<"Kode Perawatan [1/2]  :";cin>>cntr[a].kode_perawatan;
       cout<<"Jumlah Hewan     :";cin>>cntr[a].jumlah_hewan;
 
